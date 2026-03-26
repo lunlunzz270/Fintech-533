@@ -1,7 +1,13 @@
 ---
-title: "docs"
+title: "Fintech533 Basics"
+format:
+  html:
+    code-fold: true
+jupyter: python3
 ---
 
-This is a Quarto website.
+Welcome to my Quarto website for Fintech 533!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+![](images/pic.jpg){width=40%}
+
+For a demonstration of a line plot on a polar axis...
