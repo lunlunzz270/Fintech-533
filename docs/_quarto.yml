@@ -1,13 +1,15 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "docs"
+  title: "My Fintech 533 Site"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
@@ -16,6 +18,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
