@@ -3,8 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "My Fintech 533 Site"
+  title: "Fintech 533: Strategy Lab"
   navbar:
+    background: primary
+    type: dark
     left:
       - href: index.qmd
         text: Home

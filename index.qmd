@@ -1,13 +1,22 @@
 ---
-title: "Fintech533 Basics"
-format:
-  html:
-    code-fold: true
-jupyter: python3
+title: "Fintech 533: Breakout Strategy Project"
 ---
 
-Welcome to my Quarto website for Fintech 533!
+# Welcome to My Strategy Lab
 
-![](images/pic.jpg){width=40%}
+This website presents the development, backtesting, and performance analysis of a **Multi-Asset Breakout Trading Strategy** as part of the Fintech 533 course.
 
-For a demonstration of a line plot on a polar axis...
+## Project Overview
+The objective of this assignment was to implement a robust trading system using historical price data. I have developed a strategy that combines:
+- **Trend Following:** Using 200-day Simple Moving Averages.
+- **Momentum Breakouts:** Identifying entries via 40-day high watermarks.
+- **Dynamic Risk Management:** Utilizing ATR-based trailing stops to protect capital.
+
+## Quick Links
+- [**View Full Backtest Analysis**](breakout_strategy.ipynb): Detailed results for NVDA, TSLA, JPM, XOM, AMZN, and QQQ.
+- [**Download Trade Logs**](trades.csv): Access the raw transaction data for audit.
+
+---
+
+*Authored by: Zilun*  
+*Date: April 2026*
