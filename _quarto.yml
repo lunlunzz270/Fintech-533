@@ -10,6 +10,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: breakout_strategy.ipynb
+        text: Breakout Strategy
 
 format:
   html:
